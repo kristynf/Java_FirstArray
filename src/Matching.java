@@ -1,23 +1,24 @@
-import java.util.stream.BaseStream
 
-i
+
+
 public class Matching {
-    public static void main(String [] arg){
-        int [] array1 = new int[]{1,7,6,5,9};
-        int [] array2 = new int[]{2,7,6,3,4};
+    public static void main(String[] arg) {
+        int[] array1 = new int[]{1, 7, 6, 5, 9};
+        int[] array2 = new int[]{2, 7, 6, 3, 4};
 
-        public static <T> Stream<T> stream(T[] array)
-        // If any number from List is present in List 2
-        System.out.println(
-                "If any number from aList is present in List 2 :")
-                        array1.stream().anyMatch(int - > array2.contains(num));
+        for (int i = 0; i < array1.length; i++) {
+            for (int j = 0; j < array2.length; j++) {
+                if (array1[i] == array2[j]) {
+                    System.out.println("(" + array1[i] + "," + array2[j] + ")");
+                }
+            }
 
 
-
+        }
+    }
 
 
 }
-
 
 
 //9. Given array 1: [1,7,6,5,9] and array 2: [2,7,6,3,4]

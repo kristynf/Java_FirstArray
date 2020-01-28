@@ -1,4 +1,4 @@
-/*
+
 import java.util.Scanner;
 
 public class Average {
@@ -13,11 +13,11 @@ public class Average {
             sc.nextLine();
         }
         for (int num : randint) {
-            sum = (sum + num) ;
-            average = (sum/10);
+            sum = (sum + num);
+            average = (sum / 10);
         }
 
         System.out.println("The average of the array is: " + average);
     }
 
-}*/
+}

@@ -23,9 +23,9 @@ public class ArrayReplace {
                     System.out.println(name);}*/
 
 
-            }
+//            }
 
 
-        }
-    }
-}
+//        }
+//    }
+//}

@@ -1,4 +1,4 @@
-/*
+
 
 public class ArrayNames {
     public static void main(String[] arg) {
@@ -6,14 +6,14 @@ public class ArrayNames {
         names[0] = "Jane";
         names[1] = "Sally";
         names[2] = "Paul";
-        for (String name:names){
+        for (String name : names) {
 
-        System.out.println(name);}
-
+            System.out.println(name);
+        }
 
 
     }
 
 
 }
-*/
+
