@@ -1,4 +1,4 @@
-/*import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.ListIterator;
 
 public class ArrayReplace {
@@ -18,14 +18,15 @@ public class ArrayReplace {
                 //Replace element
                 iterator.set("hello");
 
-                for (String name:arr1){
+                for (String name : arr1) {
 
-                    System.out.println(name);}*/
-
-
-//            }
+                    System.out.println(name);
+                }
 
 
-//        }
-//    }
-//}
+            }
+
+
+        }
+    }
+}
